@@ -4,10 +4,148 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="master.css" />
     <title>Document</title>
   </head>
+
   <body>
-    hello test Lesson 1: <a href="./Basic/index.html">basic</a> lesson 2:
-    <a href="./TheMinimalist/index.html">The Minimalist</a>
+    <main id="content-wrapper">
+      <!--about section -->
+      <section id="about">
+        <article class="about-info">
+          <h1>Brittney In Beta</h1>
+          <h4>Software Developer</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur a excepturi incidunt ab, quae suscipit fugit. Nobis
+            impedit optio voluptatem maiores repudiandae fuga incidunt neque
+            deleniti aut. Sit, recusandae tenetur.
+          </p>
+        </article>
+      </section>
+      <p class="vertical">Developer</p>
+      <!--short about section img-->
+      <div class="about-img"></div>
+
+      <!--navigation-->
+      <nav class="nav-wrapper">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Skills</a></li>
+          <li class="nav-item"><a href="#">Projects</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!--about me in detail -->
+      <section id="detail-about">
+        <div class="detail-about-img"></div>
+        <article class="detail-about-info">
+          <h2>- My Story</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
+            quis dignissimos vero laborum necessitatibus nostrum nesciunt?
+            Ratione quam minus consequatur, in non hic voluptatem laudantium,
+            necessitatibus a deleniti odio ipsum? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Provident, quis dignissimos vero
+            laborum necessitatibus nostrum nesciunt? Ratione quam minus
+            consequatur, in non hic voluptatem laudantium, necessitatibus a
+            deleniti odio ipsum? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Provident, quis dignissimos vero laborum
+            necessitatibus nostrum nesciunt? Ratione quam minus consequatur, in
+            non hic voluptatem laudantium, necessitatibus a deleniti odio ipsum?
+          </p>
+        </article>
+      </section>
+
+      <!--skills-->
+
+      <div class="skills-title">
+        <h2>- Skills</h2>
+      </div>
+
+      <!--skills ul -->
+      <section class="skills-ul">
+        <ul class="skills-list">
+          <li class="skills-item">HTML5</li>
+          <li class="skills-item">CSS3</li>
+          <li class="skills-item">Boostrap 4</li>
+          <li class="skills-item">Css Grid</li>
+          <li class="skills-item">Materialize</li>
+          <li class="skills-item">Flexbox</li>
+          <li class="skills-item">Sass/Scss</li>
+          <li class="skills-item">JavaScript</li>
+          <li class="skills-item">React</li>
+          <li class="skills-item">
+            PHP | <span>Currently in the process</span>
+          </li>
+          <li class="skills-item">
+            Angular | <span>Currently in the process</span>
+          </li>
+          <li class="skills-item">Git</li>
+        </ul>
+      </section>
+
+      <!--gallery-->
+      <div id="projects">
+        <h2 class="projects-title">- Projects</h2>
+        <div class="blackLine1"></div>
+
+        <a class="recipeCards" href="./recipeCards/index.html">
+          <div class="overlay">
+            <div class="text">
+              Recipe cards, created with html, css and featuring flexbox.
+            </div>
+          </div>
+        </a>
+
+        <div class="blackLine2"></div>
+
+        <a class="theminimalist" href="./TheMinimalist/index.html">
+          <div class="overlay">
+            <div class="text">
+              The Minimalist is a project I designed and created using html5,
+              css3, flexbox, css Grid and responsive design.
+            </div>
+          </div>
+        </a>
+
+        <a class="minimalCalc" href="./minimalCalc/index.html">
+          <div class="overlay">
+            <div class="text">
+              Recipe cards, created with html, css and featuring flexbox.
+            </div>
+          </div>
+        </a>
+
+        <a class="team" href="./team/index.html">
+        <div class="overlay">
+          <div class="text">
+            The Dev Team was designed and built using html, css3 and flexbox.
+          </div>
+        </div>
+        </a>
+    </main>
+
+    <script src="script.js"></script>
+    <!-jQuery cdn-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
