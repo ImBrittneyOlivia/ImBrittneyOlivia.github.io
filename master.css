@@ -203,8 +203,7 @@ h2 {
   /* Icons */
   /* pop-up text */
   /* pop-up text arrow */
-  /* text pops up when icon is in hover state */
-  /* font awesome icons */ }
+  /* text pops up when icon is in hover state */ }
   #contact h2 {
     margin-bottom: 90px; }
   #contact div.socials {
@@ -266,13 +265,5 @@ h2 {
     bottom: 60px;
     visibility: visible;
     opacity: 1; }
-  #contact a:nth-of-type(1):before {
-    content: "\f09a"; }
-  #contact a:nth-of-type(2):before {
-    content: "\f099"; }
-  #contact a:nth-of-type(3):before {
-    content: "\f0d5"; }
-  #contact a:nth-of-type(4):before {
-    content: "\f113"; }
 
 /*# sourceMappingURL=master.css.map */
