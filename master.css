@@ -56,7 +56,8 @@ div.about-img {
 
 nav.nav-wrapper {
   grid-column: 1 / 4;
-  padding: 2rem; }
+  padding: 2rem;
+  font-size: 18px; }
   nav.nav-wrapper ul.nav-list {
     display: flex;
     justify-content: space-evenly;
