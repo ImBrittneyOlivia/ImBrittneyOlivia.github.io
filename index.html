@@ -28,10 +28,12 @@
           <h1>Brittney In Beta</h1>
           <h4>Software Developer</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur a excepturi incidunt ab, quae suscipit fugit. Nobis
-            impedit optio voluptatem maiores repudiandae fuga incidunt neque
-            deleniti aut. Sit, recusandae tenetur.
+            My name is Brittney Olivia. I'm a Software Developer residing in the
+            Phoenix, metropolitan area. I specialize in Front End Web
+            Development and UI/UX design. As part of the dev community my goal
+            is to bridge the gap between designer and developer, fulfilling my
+            passion for designing clean, modern websites with functionality
+            geared towards enhancing user experience.
           </p>
         </article>
       </section>
@@ -42,38 +44,52 @@
       <!--navigation-->
       <nav class="nav-wrapper">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Skills</a></li>
-          <li class="nav-item"><a href="#">Projects</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
+          <li class="nav-item"><a href="./index.html">Home</a></li>
+          <li class="nav-item"><a href="#background">About</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
       <!--about me in detail -->
-      <section id="detail-about">
+      <section id="background" class="detail-about">
         <div class="detail-about-img"></div>
         <article class="detail-about-info">
           <h2>- My Story</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
-            quis dignissimos vero laborum necessitatibus nostrum nesciunt?
-            Ratione quam minus consequatur, in non hic voluptatem laudantium,
-            necessitatibus a deleniti odio ipsum? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Provident, quis dignissimos vero
-            laborum necessitatibus nostrum nesciunt? Ratione quam minus
-            consequatur, in non hic voluptatem laudantium, necessitatibus a
-            deleniti odio ipsum? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Provident, quis dignissimos vero laborum
-            necessitatibus nostrum nesciunt? Ratione quam minus consequatur, in
-            non hic voluptatem laudantium, necessitatibus a deleniti odio ipsum?
+            Becoming a software developer was not always my dream. I wanted to
+            work in fashion like every other 16 year old girl out there.
+            Specifically, I wanted to design magazine layouts for major
+            magazines. You know Vouge, Nylon, W etc. In the 90's, early 2000's
+            the inter-web wasn't something I really thought about. Tearing out
+            magazine pages and collaging your bedroom wall was all the rage.
+            Once I entered college, I dove into business, focusing on marketing
+            and branding. This was a way for me to express both my logical,
+            analytical side and creative side. Shortly after college I landed a
+            marketing job and was the event coordinator for 49 stores in 50
+            states. However, during my time in marketing I saw so many ways in
+            which we could improve our site, cause lets face it first
+            impressions and visuals are everything when it comes to locking in
+            new costumers. A few months later I found myself neck deep in a 3
+            month full stack coding bootcamp. After I graduated from the program
+            I became a mentor for up and coming developers. In addition to
+            mentoring, I freelance. I love taking on projects that challenge my
+            front end skills and improve my development. It’s funny how life
+            comes full circle. In high school I didn't even know that becoming a
+            developer and building websites was something I could do. That 16
+            year old me finally gets to live out her dream of creating and
+            building layouts. Not yet for the fashion industry but give me time.
+            As a front end web developer I get to combine my creativity, love
+            for technology, marketing, branding and business all into one
+            profession.
           </p>
         </article>
       </section>
 
       <!--skills-->
 
-      <div class="skills-title">
+      <div id="skills" class="skills-title">
         <h2>- Skills</h2>
       </div>
 
@@ -88,6 +104,7 @@
           <li class="skills-item">Flexbox</li>
           <li class="skills-item">Sass/Scss</li>
           <li class="skills-item">JavaScript</li>
+          <li class="skills-item">jQuery</li>
           <li class="skills-item">React</li>
           <li class="skills-item">
             PHP | <span>Currently in the process</span>
@@ -102,7 +119,6 @@
       <!--gallery-->
       <div id="projects">
         <h2 class="projects-title">- Projects</h2>
-        <div class="blackLine1"></div>
 
         <a class="recipeCards" href="./recipeCards/index.html" target="_blank">
           <div class="overlay">
@@ -114,7 +130,11 @@
 
         <div class="blackLine2"></div>
 
-        <a class="theminimalist" href="./TheMinimalist/index.html" target="_blank">
+        <a
+          class="theminimalist"
+          href="./TheMinimalist/index.html"
+          target="_blank"
+        >
           <div class="overlay">
             <div class="text">
               The Minimalist is a project I designed and created using html5,
@@ -132,12 +152,31 @@
         </a>
 
         <a class="team" href="./team/index.html" target="_blank">
-        <div class="overlay">
-          <div class="text">
-            The Dev Team was designed and built using html, css3 and flexbox.
+          <div class="overlay">
+            <div class="text">
+              The Dev Team was designed and built using html, css3 and flexbox.
+            </div>
           </div>
-        </div>
         </a>
+      </div>
+      <!--contact-->
+      <section id="contact">
+        <h2>-Contact Me</h2>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/brittney-stuart/" target="_blank"
+            ><span>LinkedIn</span></a
+          >
+          <a href="https://github.com/ImBrittneyOlivia" target="_blank"
+            ><span>Github</span></a
+          >
+          <a href="#"><span>CodePen</span></a>
+          <a
+            href="https://www.instagram.com/brittney_in_beta/?hl=en"
+            target="_blank"
+            ><span>Instagram</span></a
+          >
+        </div>
+      </section>
     </main>
 
     <script src="script.js"></script>
