@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Min Calc</title>
+    <!--   Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="master.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header"><h1>The Minimalist's Calculator</h1></div>
+      <form name="form">
+        <input class="calc-view" name="calcView" placeholder="0.00" />
+      </form>
+
+      <table>
+        <!--table row 1 -->
+        <tr class="row1">
+          <td>
+            <input type="button" class="reset" value="C" onclick="reset()" />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="btn operator"
+              value="BK"
+              onclick="back()"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="btn operator"
+              value="/"
+              onclick="insert('/')"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="btn operator"
+              value="*"
+              onclick="insert('*')"
+            />
+          </td>
+        </tr>
+
+        <!--table row 2-->
+
+        <tr class="row2">
+          <td>
+            <input type="button" class="btn" value="7" onclick="insert(7)" />
+          </td>
+          <td>
+            <input type="button" class="btn" value="8" onclick="insert(8)" />
+          </td>
+          <td>
+            <input type="button" class="btn" value="9" onclick="insert(9)" />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="btn operator"
+              value="-"
+              onclick="insert('-')"
+            />
+          </td>
+        </tr>
+
+        <!--table row 3 -->
+        <tr class="row3">
+          <td>
+            <input type="button" class="btn" value="4" onclick="insert(4)" />
+          </td>
+          <td>
+            <input type="button" class="btn" value="5" onclick="insert(5)" />
+          </td>
+          <td>
+            <input type="button" class="btn" value="6" onclick="insert(6)" />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="btn operator"
+              value="+"
+              onclick="insert('+')"
+            />
+          </td>
+        </tr>
+
+        <!--table row 4 -->
+        <tr class="row4">
+          <td>
+            <input type="button" class="btn" value="1" onclick="insert(1)" />
+          </td>
+          <td>
+            <input type="button" class="btn" value="2" onclick="insert(2)" />
+          </td>
+          <td>
+            <input type="button" class="btn" value="3" onclick="insert(3)" />
+          </td>
+          <td rowspan="5">
+            <input type="button" class="equal" value="=" onclick="equal()" />
+          </td>
+        </tr>
+
+        <!--table row 5 -->
+        <tr class="row5">
+          <td colspan="2">
+            <input type="button" class="zero" value="0" onclick="insert(0)" />
+          </td>
+          <td>
+            <input type="button" class="btn" value="." onclick="insert('.')" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
