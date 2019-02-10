@@ -1,0 +1,161 @@
+body {
+  margin: 0px 2rem; }
+
+.site-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1533478583204-680d4ff74891?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .site-banner button {
+    background: black;
+    color: white;
+    height: 40px;
+    border: none;
+    margin: -20px;
+    padding: 0px 15px;
+    font-size: 15px;
+    z-index: 1;
+    text-transform: uppercase;
+    cursor: pointer; }
+  .site-banner button:hover {
+    background: white;
+    color: black; }
+
+article.site-title-container {
+  background: white;
+  opacity: 0.6;
+  padding: 1rem; }
+  article.site-title-container h1 {
+    font-size: 90px;
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    font-weight: bolder;
+    margin: 0px; }
+  article.site-title-container h3 {
+    text-align: justify; }
+
+/* site summary */
+section.welcome-summary,
+section.acai-menu {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  section.welcome-summary h3,
+  section.acai-menu h3 {
+    margin: 0;
+    font-weight: lighter; }
+  section.welcome-summary h1,
+  section.acai-menu h1 {
+    font-size: 40px;
+    font-family: "Abril Fatface", cursive;
+    margin: 8px 0px 30px 0px; }
+  section.welcome-summary p,
+  section.acai-menu p {
+    width: 80vw;
+    margin: 0 auto; }
+
+/* menu 1 */
+section#menu1 {
+  display: grid;
+  margin: 0 auto;
+  max-width: 960px;
+  grid-template-columns: repeat(2, 1fr); }
+  section#menu1 img {
+    width: auto;
+    height: 90px;
+    margin: 0 auto; }
+  section#menu1 .menu-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem; }
+    section#menu1 .menu-item h4 {
+      text-transform: uppercase; }
+    section#menu1 .menu-item h4 span {
+      float: right; }
+
+/* parallax 1 */
+.para-img1 {
+  min-height: 500px;
+  background-image: url(https://images.unsplash.com/photo-1534482421-64566f976cfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+section.menu2 .acai-menu {
+  margin-top: 90px; }
+
+/* paralax 2 */
+.para-img2 {
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1525904097878-94fb15835963?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* footer */
+.footer {
+  padding: 2rem;
+  background: black;
+  opacity: 0.7;
+  color: white; }
+  .footer ul.footer-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; }
+    .footer ul.footer-list li.footer-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .footer ul.footer-list li.footer-item h1 {
+        text-decoration: underline; }
+      .footer ul.footer-list li.footer-item p {
+        margin: 1.5px; }
+    .footer ul.footer-list .name {
+      font-size: 60px;
+      font-family: "Abril Fatface", cursive;
+      text-align: center;
+      border: 1px solid white;
+      margin: 10px; }
+
+/* menu media query */
+@media screen and (max-width: 56rem) {
+  body {
+    margin: 0; }
+
+  .site-banner article.site-title-container h1 {
+    font-size: 60px;
+    margin-bottom: 15px; }
+  .site-banner article.site-title-container h3 {
+    font-size: 15px;
+    margin: 0rem 3rem;
+    text-align: center; }
+  .site-banner button {
+    margin: -5px; }
+
+  section.welcome-summary p {
+    text-align: justify; }
+
+  section#menu1 {
+    display: grid;
+    grid-template-columns: 1fr; }
+    section#menu1 .menu-item {
+      justify-content: center;
+      align-items: center; }
+    section#menu1 .menu-item-info {
+      padding: 1rem; }
+
+  section.acai-menu p {
+    text-align: justify; } }
+
+/*# sourceMappingURL=master.css.map */
